@@ -68,11 +68,12 @@ object Combat {
             reset(pawn)
             pawn.attr.remove(CASTING_SPELL)
         }
-
-        if (target is Player && target.interfaces.getModal() != -1) {
-            target.closeInterface(target.interfaces.getModal())
-            target.interfaces.setModal(-1)
-        }
+        TODO("Nibba")
+        //if (target is Player && target.interfaces.getModal() != -1) {
+        //    // @TODO Interface
+        //    // target.closeInterface(target.interfaces.getModal())
+        //    target.interfaces.setModal(-1)
+        //}
     }
 
     fun postDamage(
@@ -280,7 +281,7 @@ object Combat {
         return true
     }
 
-    private fun inPvpArea(player: Player): Boolean = player.inWilderness()
+    private fun inPvpArea(player: Player): Boolean = false // @TODO player.inWilderness()
 
     private fun getValidCombatLvlRange(player: Player): IntRange {
         val wildLvl = player.tile.getWildernessLevel()

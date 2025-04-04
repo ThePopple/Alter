@@ -566,4 +566,5 @@ object Varp {
     const val BASE_HIDDEN_VARP1 = 14999
     const val PLAYER_HAS_DISPLAY_NAME = 1055
     const val MASTER_SOUND_VOLUME = 3796
+    const val MAKEOVER_SLOT = 3788
 }

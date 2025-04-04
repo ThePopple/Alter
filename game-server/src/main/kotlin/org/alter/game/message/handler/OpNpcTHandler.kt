@@ -26,33 +26,38 @@ class OpNpcTHandler : MessageHandler<OpNpcT> {
         client.resetInteractions()
         println("$client, ${npc.id} ${message.index} $parent $child ${message.controlKey}")
         val verify = message.selectedObj
-        /**
-         * @TODO Need to validate this, currently working on path / movement.
-         */
         client.attr[INTERACTING_NPC_ATTR] = WeakReference(npc)
         client.attr[INTERACTING_COMPONENT_PARENT] = parent
         client.attr[INTERACTING_COMPONENT_CHILD] = child
-
+        println("Args: p = ByYou npc = ${npc.id} parent = $parent component = $child selectedSub = ${message.selectedSub} selectedObj = ${message.selectedObj}")
+        client.world.plugins.executeComponentOnNpc(
+            p = client,
+            npc = npc,
+            parent = parent,
+            component = child,
+            selectedSub = message.selectedSub,
+            selectedObj = message.selectedObj
+        )
         /**
          * Switch case between interface ids.
          * On item use npc does not imediatly turn to player.
          *
          */
-        if (child == 0) {
-            if (client.world.plugins.executeItemOnNpc(client, npc.id, verify)
-                || client.world.plugins.executeItemOnNpc(client, verify)) {
-                return
-            }
-            if (client.world.devContext.debugItemActions) {
-                client.writeMessage("Unhandled item on npc [ $verify on ${npc.id}] ] ")
-            }
-        } else {
-            if (!client.world.plugins.executeSpellOnNpc(client, parent, child)) {
-                client.writeMessage(Entity.NOTHING_INTERESTING_HAPPENS)
-                if (client.world.devContext.debugMagicSpells) {
-                    client.writeMessage("Unhandled magic spell: [$parent, $child] out here")
-                }
-            }
-        }
+        //if (child == 0) {
+        //    if (client.world.plugins.executeItemOnNpc(client, npc.id, verify)
+        //        || client.world.plugins.executeItemOnNpc(client, verify)) {
+        //        return
+        //    }
+        //    if (client.world.devContext.debugItemActions) {
+        //        client.writeMessage("Unhandled item on npc [ $verify on ${npc.id}] ] ")
+        //    }
+        //} else {
+        //    if (!client.world.plugins.executeSpellOnNpc(client, parent, child)) {
+        //        client.writeMessage(Entity.NOTHING_INTERESTING_HAPPENS)
+        //        if (client.world.devContext.debugMagicSpells) {
+        //            client.writeMessage("Unhandled magic spell: [$parent, $child] out here")
+        //        }
+        //    }
+        //}
     }
 }

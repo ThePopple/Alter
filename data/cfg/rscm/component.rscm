@@ -215,6 +215,7 @@ resizable_pane_92:92
 resizable_pane_93:93
 resizable_pane_94:94
 resizable_pane_95:95
+resizable_pane_96:96
 resizable_pane_money_pouch:97
 resizable_pane_fog_overlay:98
 resizable_pane_combat_info_overlay:99
@@ -312,6 +313,7 @@ fixed_pane_89:89
 fixed_pane_90:90
 fixed_pane_91:91
 fixed_pane_92:92
+fixed_pane_93:93
 fixed_pane_money_pouch:95
 fixed_pane_fog_overlay:96
 fixed_pane_combat_info_overlay:97
@@ -411,10 +413,13 @@ side_panels_resizable_pane_91:91
 side_panels_resizable_pane_92:92
 side_panels_resizable_pane_93:93
 side_panels_resizable_pane_94:94
+side_panels_resizable_pane_95:95
+side_panels_resizable_pane_96:96
 side_panels_resizable_pane_money_pouch:97
 side_panels_resizable_pane_fog_overlay:98
 side_panels_resizable_pane_combat_info_overlay:99
 
+fullscreen_pane_-1:-1
 fullscreen_pane_0:0
 fullscreen_pane_1:1
 fullscreen_pane_2:2

@@ -46,7 +46,6 @@ import org.alter.game.model.varp.VarpSet
 import org.alter.game.rsprot.RsModObjectProvider
 import org.alter.game.service.log.LoggerService
 import org.alter.game.type.bas.BasType
-import org.alter.game.type.interfacedsl.Interface
 import java.util.*
 
 /**
@@ -74,10 +73,8 @@ open class Player(world: World) : Pawn(world) {
     val equipment = ItemContainer(EQUIPMENT_KEY)
     val bank = ItemContainer(BANK_KEY)
 
-    var activeInterface = mutableListOf<Interface>()
-    val interfaces by lazy { InterfaceSet(PlayerInterfaceListener(this, world.plugins)) }
-
-
+    //var activeInterface = mutableListOf<Interface>()
+    val interfaces by lazy { InterfaceSet() }
 
     val containers =
         HashMap<ContainerKey, ItemContainer>().apply {

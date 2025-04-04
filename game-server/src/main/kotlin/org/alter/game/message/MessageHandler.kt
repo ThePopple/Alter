@@ -35,7 +35,7 @@ interface MessageHandler<T : IncomingGameMessage> : MessageConsumer<Client, T> {
             val message = String.format(format, *args)
             client.writeMessage(message)
             val logService = client.world.getService(LoggerService::class.java, searchSubclasses = true)
-            // println("Logger-message: [$message] , client: [$client]")
+            println("Logger-message: [$message] , client: [$client]")
             if (logService != null) {
                 logService.logPacket(client, message)
             } else {

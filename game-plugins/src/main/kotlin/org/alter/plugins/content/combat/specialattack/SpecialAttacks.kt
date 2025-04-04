@@ -6,7 +6,6 @@ import org.alter.game.model.World
 import org.alter.game.model.entity.Pawn
 import org.alter.game.model.entity.Player
 import org.alter.rscm.RSCM.getRSCM
-import org.alter.plugins.content.interfaces.attack.AttackTab
 
 /**
  * @author Tom <rspsmods@gmail.com>
@@ -51,11 +50,10 @@ object SpecialAttacks {
         val weaponItem = player.getEquipment(EquipmentType.WEAPON) ?: return false
         val special = attacks[weaponItem.id] ?: return false
 
-        if (AttackTab.getEnergy(player) < special.energyRequired) {
-            return false
-        }
-
-        AttackTab.setEnergy(player, AttackTab.getEnergy(player) - special.energyRequired)
+        //if (AttackTab.getEnergy(player) < special.energyRequired) {
+        //    return false
+        //}
+        //AttackTab.setEnergy(player, AttackTab.getEnergy(player) - special.energyRequired)
 
         val combatContext = CombatContext(world, player)
         target?.let { combatContext.target = it }

@@ -16,6 +16,9 @@ import org.alter.game.model.queue.*
 import org.alter.game.model.shop.*
 import org.alter.game.model.timer.*
 import org.alter.game.plugin.*
+import org.alter.game.type.interfacedsl.InterfaceDestination
+import org.alter.game.type.interfacedsl.openInterface
+import org.alter.rscm.RSCM.asRSCM
 
 class InterfacePlugin(
     r: PluginRepository,
@@ -27,7 +30,7 @@ class InterfacePlugin(
         onCommand("interface", Privilege.DEV_POWER, description = "Open interface by id") {
             val values = player.getCommandArgs()
             val component = values[0].toInt()
-            player.openInterface(component, InterfaceDestination.MAIN_SCREEN)
+            player.openInterface(component.asRSCM("interface"), InterfaceDestination.MAIN_SCREEN)
             player.message("Opening interface <col=801700>$component</col>")
         }
     }

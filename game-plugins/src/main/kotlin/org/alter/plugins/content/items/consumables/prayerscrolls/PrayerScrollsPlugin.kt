@@ -1,5 +1,6 @@
+/*
 package org.alter.plugins.content.items.consumables.prayerscrolls
-
+@TODO Rework interface
 import org.alter.api.*
 import org.alter.api.cfg.*
 import org.alter.api.dsl.*
@@ -122,3 +123,4 @@ class PrayerScrollsPlugin(
         }
     }
 }
+*/

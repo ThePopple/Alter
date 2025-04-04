@@ -131,6 +131,13 @@ fun Player.playerPreSynchronizationTask() {
     }
 }
 
+/**
+ * @TODO
+ */
+fun Player.updateCoords() {
+
+}
+
 private fun shouldRebuildRegion(
     old: Coordinate,
     new: Tile,

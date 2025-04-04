@@ -16,7 +16,6 @@ import org.alter.plugins.content.combat.createProjectile
 import org.alter.plugins.content.combat.dealHit
 import org.alter.plugins.content.combat.formula.MagicCombatFormula
 import org.alter.plugins.content.combat.strategy.magic.CombatSpell
-import org.alter.plugins.content.magic.MagicSpells
 
 /**
  * @author Tom <rspsmods@gmail.com>
@@ -30,10 +29,10 @@ object MagicCombatStrategy : CombatStrategy {
     ): Boolean {
         if (pawn is Player) {
             val spell = pawn.attr[Combat.CASTING_SPELL]!!
-            val requirements = MagicSpells.getMetadata(spell.id)
-            if (requirements != null && !MagicSpells.canCast(pawn, requirements.lvl, requirements.items, requirements.spellbook)) {
-                return false
-            }
+            //val requirements = MagicSpells.getMetadata(spell.id)
+            //if (requirements != null && !MagicSpells.canCast(pawn, requirements.lvl, requirements.items, requirements.spellbook)) {
+            //    return false
+            //}
         }
         return true
     }
@@ -64,7 +63,7 @@ object MagicCombatStrategy : CombatStrategy {
             if (spell.castSound != -1) {
                 pawn.playSound(id = spell.castSound, volume = 1, delay = 0)
             }
-            MagicSpells.getMetadata(spell.id)?.let { requirement -> MagicSpells.removeRunes(pawn, requirement.items) }
+            //MagicSpells.getMetadata(spell.id)?.let { requirement -> MagicSpells.removeRunes(pawn, requirement.items) }
         }
 
         val formula = MagicCombatFormula

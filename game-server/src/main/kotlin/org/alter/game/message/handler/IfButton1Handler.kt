@@ -18,7 +18,9 @@ class IfButton1Handler : MessageHandler<If3Button> {
         val interfaceId = message.interfaceId
         val component = message.componentId
         val option = message.op
+
         if (!client.interfaces.isVisible(interfaceId)) {
+            println("Interface $interfaceId is not visible")
             return
         }
         log(

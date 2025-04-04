@@ -1,0 +1,3362 @@
+[0]
+name = "bas.default_player"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 422
+accurateSound = 2_566
+aggressiveAnim = 423
+aggressiveSound = 2_566
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 422
+defensiveSound = 2_566
+blockAnim = 424
+
+[1]
+name = "bas.pet_rock"
+walkAnim = 6_658
+runAnim = 6_660
+readyAnim = 6_657
+turnAnim = 6_661
+walkAnimBack = 6_659
+walkAnimLeft = 6_662
+walkAnimRight = 6_663
+accurateAnim = 422
+accurateSound = 2_566
+aggressiveAnim = 423
+aggressiveSound = 2_566
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 422
+defensiveSound = 2_566
+blockAnim = 424
+
+[2]
+name = "bas.event_rpg"
+walkAnim = 2_317
+runAnim = 2_322
+readyAnim = 2_316
+turnAnim = 2_321
+walkAnimBack = 2_318
+walkAnimLeft = 2_319
+walkAnimRight = 2_320
+accurateAnim = 2_323
+accurateSound = 2_566
+aggressiveAnim = 2_323
+aggressiveSound = 2_566
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 2_323
+defensiveSound = 2_566
+blockAnim = 2_324
+
+[3]
+name = "bas.ale_of_the_gods"
+walkAnim = 3_039
+runAnim = 824
+readyAnim = 3_040
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 422
+accurateSound = 2_566
+aggressiveAnim = 423
+aggressiveSound = 2_566
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 422
+defensiveSound = 2_566
+blockAnim = 424
+
+[4]
+name = "bas.axe"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 395
+accurateSound = 2_498
+aggressiveAnim = 395
+aggressiveSound = 2_498
+controlledAnim = 401
+controlledSound = 2_497
+defensiveAnim = 395
+defensiveSound = 2_498
+blockAnim = 397
+
+[5]
+name = "bas.dharoks_greataxe"
+walkAnim = 2_064
+runAnim = 824
+readyAnim = 2_065
+turnAnim = 823
+walkAnimBack = 2_064
+walkAnimLeft = 2_064
+walkAnimRight = 2_064
+accurateAnim = 2_067
+accurateSound = 1_321
+aggressiveAnim = 2_067
+aggressiveSound = 1_321
+controlledAnim = 2_066
+controlledSound = 1_316
+defensiveAnim = 2_067
+defensiveSound = 1_321
+blockAnim = 424
+
+[6]
+name = "bas.leafbladed_battleaxe"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 7_004
+accurateSound = 2_498
+aggressiveAnim = 7_004
+aggressiveSound = 2_498
+controlledAnim = 3_852
+controlledSound = 2_497
+defensiveAnim = 7_004
+defensiveSound = 2_498
+blockAnim = 397
+
+[7]
+name = "bas.polestaff_sceptre"
+walkAnim = 1_205
+runAnim = 1_210
+readyAnim = 813
+turnAnim = 1_209
+walkAnimBack = 1_206
+walkAnimLeft = 1_207
+walkAnimRight = 1_208
+accurateAnim = 414
+accurateSound = 2_555
+aggressiveAnim = 414
+aggressiveSound = 2_555
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 414
+defensiveSound = 2_555
+blockAnim = 415
+
+[8]
+name = "bas.warhammer"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 401
+accurateSound = 2_567
+aggressiveAnim = 401
+aggressiveSound = 2_567
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 401
+defensiveSound = 2_567
+blockAnim = 403
+
+[9]
+name = "bas.flowers"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 400
+accurateSound = 2_518
+aggressiveAnim = 400
+aggressiveSound = 2_518
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 400
+defensiveSound = 2_518
+blockAnim = 424
+
+[10]
+name = "bas.granite_maul"
+walkAnim = 1_663
+runAnim = 1_664
+readyAnim = 1_662
+turnAnim = 823
+walkAnimBack = 1_663
+walkAnimLeft = 1_663
+walkAnimRight = 1_663
+accurateAnim = 1_665
+accurateSound = 2_714
+aggressiveAnim = 1_665
+aggressiveSound = 2_714
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 1_665
+defensiveSound = 2_714
+blockAnim = 1_666
+
+[11]
+name = "bas.easter_basket"
+walkAnim = 1_836
+runAnim = 1_836
+readyAnim = 1_837
+turnAnim = 823
+walkAnimBack = 1_836
+walkAnimLeft = 1_836
+walkAnimRight = 1_836
+accurateAnim = 422
+accurateSound = 2_566
+aggressiveAnim = 422
+aggressiveSound = 2_566
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 422
+defensiveSound = 2_566
+blockAnim = 424
+
+[12]
+name = "bas.rubber_chicken"
+walkAnim = 1_830
+runAnim = 824
+readyAnim = 1_832
+turnAnim = 823
+walkAnimBack = 1_830
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 1_833
+accurateSound = 2_257
+aggressiveAnim = 1_833
+aggressiveSound = 2_257
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 1_833
+defensiveSound = 2_257
+blockAnim = 1_834
+
+[13]
+name = "bas.blackjack"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 401
+accurateSound = 2_512
+aggressiveAnim = 401
+aggressiveSound = 2_512
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 401
+defensiveSound = 2_512
+blockAnim = 403
+
+[14]
+name = "bas.torags_hammers"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 2_068
+accurateSound = 1_332
+aggressiveAnim = 2_068
+aggressiveSound = 1_332
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 2_068
+defensiveSound = 1_332
+blockAnim = 424
+
+[15]
+name = "bas.bone_club"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 401
+accurateSound = 1_309
+aggressiveAnim = 401
+aggressiveSound = 1_309
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 401
+defensiveSound = 1_309
+blockAnim = 403
+
+[16]
+name = "bas.tzhaar_ket_em"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 401
+accurateSound = 2_508
+aggressiveAnim = 401
+aggressiveSound = 2_508
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 401
+defensiveSound = 2_508
+blockAnim = 403
+
+[17]
+name = "bas.tzhaar_ket_om"
+walkAnim = 2_064
+runAnim = 824
+readyAnim = 2_065
+turnAnim = 823
+walkAnimBack = 2_064
+walkAnimLeft = 2_064
+walkAnimRight = 2_064
+accurateAnim = 2_661
+accurateSound = 2_520
+aggressiveAnim = 2_661
+aggressiveSound = 2_520
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 2_661
+defensiveSound = 2_520
+blockAnim = 1_666
+
+[18]
+name = "bas.mouse_toy"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 1_658
+accurateSound = 2_257
+aggressiveAnim = 1_658
+aggressiveSound = 2_257
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 1_658
+defensiveSound = 2_257
+blockAnim = 1_659
+
+[19]
+name = "bas.banner"
+walkAnim = 1_422
+runAnim = 1_427
+readyAnim = 1_421
+turnAnim = 1_426
+walkAnimBack = 1_423
+walkAnimLeft = 1_424
+walkAnimRight = 1_425
+accurateAnim = 1_428
+accurateSound = 2_566
+aggressiveAnim = 1_428
+aggressiveSound = 2_566
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 1_428
+defensiveSound = 2_566
+blockAnim = 1_429
+
+[20]
+name = "bas.meat_tenderiser"
+walkAnim = 2_064
+runAnim = 824
+readyAnim = 2_065
+turnAnim = 823
+walkAnimBack = 2_064
+walkAnimLeft = 2_064
+walkAnimRight = 2_064
+accurateAnim = 401
+accurateSound = 2_567
+aggressiveAnim = 401
+aggressiveSound = 2_567
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 401
+defensiveSound = 2_567
+blockAnim = 403
+
+[21]
+name = "bas.gadderhammer"
+walkAnim = 1_663
+runAnim = 1_664
+readyAnim = 1_662
+turnAnim = 823
+walkAnimBack = 1_663
+walkAnimLeft = 1_663
+walkAnimRight = 1_663
+accurateAnim = 1_665
+accurateSound = 2_567
+aggressiveAnim = 1_665
+aggressiveSound = 2_567
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 1_665
+defensiveSound = 2_567
+blockAnim = 1_666
+
+[22]
+name = "bas.undead_chicken"
+walkAnim = 5_364
+runAnim = 824
+readyAnim = 5_363
+turnAnim = 823
+walkAnimBack = 5_438
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 5_439
+accurateSound = 2_566
+aggressiveAnim = 5_439
+aggressiveSound = 2_566
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 5_439
+defensiveSound = 2_566
+blockAnim = 5_441
+
+[23]
+name = "bas.zombie_head"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 401
+accurateSound = 923
+aggressiveAnim = 401
+aggressiveSound = 923
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 401
+defensiveSound = 923
+blockAnim = 377
+
+[24]
+name = "bas.crier_bell"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 401
+accurateSound = 3_522
+aggressiveAnim = 401
+aggressiveSound = 3_522
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 401
+defensiveSound = 3_522
+blockAnim = 403
+
+[25]
+name = "bas.hunting_knife"
+walkAnim = 7_327
+runAnim = 2_322
+readyAnim = 2_911
+turnAnim = 823
+walkAnimBack = 7_327
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 7_328
+accurateSound = 2_522
+aggressiveAnim = 7_328
+aggressiveSound = 2_522
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 7_328
+defensiveSound = 2_522
+blockAnim = 378
+
+[26]
+name = "bas.giant_toy"
+walkAnim = 4_194
+runAnim = 7_274
+readyAnim = 4_193
+turnAnim = 4_194
+walkAnimBack = 4_194
+walkAnimLeft = 4_194
+walkAnimRight = 4_194
+accurateAnim = 7_275
+accurateSound = 2_567
+aggressiveAnim = 7_275
+aggressiveSound = 2_567
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 7_275
+defensiveSound = 2_567
+blockAnim = 7_276
+
+[27]
+name = "bas.elder_maul"
+walkAnim = 7_520
+runAnim = 7_519
+readyAnim = 7_518
+turnAnim = 823
+walkAnimBack = 7_520
+walkAnimLeft = 7_520
+walkAnimRight = 7_520
+accurateAnim = 7_516
+accurateSound = 3_454
+aggressiveAnim = 7_516
+aggressiveSound = 3_454
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 7_516
+defensiveSound = 3_454
+blockAnim = 7_517
+
+[28]
+name = "bas.birthday_balloons"
+walkAnim = 7_539
+runAnim = 7_540
+readyAnim = 7_538
+turnAnim = 823
+walkAnimBack = 7_539
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 7_541
+accurateSound = 2_257
+aggressiveAnim = 7_541
+aggressiveSound = 2_257
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 7_541
+defensiveSound = 2_257
+blockAnim = 1_834
+
+[29]
+name = "bas.prop_sword"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 7_328
+accurateSound = 2_522
+aggressiveAnim = 7_328
+aggressiveSound = 2_522
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 7_328
+defensiveSound = 2_522
+blockAnim = 378
+
+[30]
+name = "bas.gilded_spade"
+walkAnim = 2_562
+runAnim = 2_563
+readyAnim = 2_561
+turnAnim = 823
+walkAnimBack = 2_562
+walkAnimLeft = 2_562
+walkAnimRight = 2_562
+accurateAnim = 406
+accurateSound = 2_502
+aggressiveAnim = 406
+aggressiveSound = 2_502
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 406
+defensiveSound = 2_502
+blockAnim = 410
+
+[31]
+name = "bas.ham_joint"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 401
+accurateSound = 2_566
+aggressiveAnim = 401
+aggressiveSound = 2_566
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 401
+defensiveSound = 2_566
+blockAnim = 403
+
+[32]
+name = "bas.skeleton_lantern"
+walkAnim = 8_492
+runAnim = 8_492
+readyAnim = 8_521
+turnAnim = 8_492
+walkAnimBack = 8_492
+walkAnimLeft = 8_492
+walkAnimRight = 8_492
+accurateAnim = 422
+accurateSound = 2_566
+aggressiveAnim = 422
+aggressiveSound = 2_566
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 422
+defensiveSound = 2_566
+blockAnim = 424
+
+[33]
+name = "bas.league_trophy"
+walkAnim = 4_194
+runAnim = 7_274
+readyAnim = 4_193
+turnAnim = 4_194
+walkAnimBack = 4_194
+walkAnimLeft = 4_194
+walkAnimRight = 4_194
+accurateAnim = 401
+accurateSound = 2_567
+aggressiveAnim = 401
+aggressiveSound = 2_567
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 401
+defensiveSound = 2_567
+blockAnim = 403
+
+[34]
+name = "bas.carrot_sword"
+walkAnim = 819
+runAnim = 824
+readyAnim = 809
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 8_640
+accurateSound = 2_548
+aggressiveAnim = 8_640
+aggressiveSound = 2_548
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 8_640
+defensiveSound = 2_548
+blockAnim = 388
+
+[35]
+name = "bas.eastdoor"
+walkAnim = 7_510
+runAnim = 7_509
+readyAnim = 7_508
+turnAnim = 823
+walkAnimBack = 7_510
+walkAnimLeft = 7_510
+walkAnimRight = 7_510
+accurateAnim = 7_511
+accurateSound = 2_568
+aggressiveAnim = 7_511
+aggressiveSound = 2_568
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 7_511
+defensiveSound = 2_568
+blockAnim = 7_512
+
+[36]
+name = "bas.longbow"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 426
+accurateSound = 2_700
+aggressiveAnim = 426
+aggressiveSound = 2_700
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 426
+defensiveSound = 2_700
+blockAnim = 424
+
+[37]
+name = "bas.shortbow"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 426
+accurateSound = 2_693
+aggressiveAnim = 426
+aggressiveSound = 2_693
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 426
+defensiveSound = 2_693
+blockAnim = 424
+
+[38]
+name = "bas.crystal_bow"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 426
+accurateSound = 1_352
+aggressiveAnim = 426
+aggressiveSound = 1_352
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 426
+defensiveSound = 1_352
+blockAnim = 424
+
+[39]
+name = "bas.comp_bow"
+walkAnim = 1_205
+runAnim = 1_210
+readyAnim = 813
+turnAnim = 1_209
+walkAnimBack = 1_206
+walkAnimLeft = 1_207
+walkAnimRight = 1_208
+accurateAnim = 426
+accurateSound = 2_700
+aggressiveAnim = 426
+aggressiveSound = 2_700
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 426
+defensiveSound = 2_700
+blockAnim = 424
+
+[40]
+name = "bas.dark_bow"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 426
+accurateSound = 3_731
+aggressiveAnim = 426
+aggressiveSound = 3_731
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 426
+defensiveSound = 3_731
+blockAnim = 424
+
+[41]
+name = "bas.cursed_goblin_bow"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 426
+accurateSound = -1
+aggressiveAnim = 426
+aggressiveSound = -1
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 426
+defensiveSound = -1
+blockAnim = 424
+
+[42]
+name = "bas.basic_claws"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 393
+accurateSound = 2_548
+aggressiveAnim = 393
+aggressiveSound = 2_548
+controlledAnim = 1_067
+controlledSound = 2_549
+defensiveAnim = 393
+defensiveSound = 2_548
+blockAnim = 397
+
+[43]
+name = "bas.beach_boxing_gloves"
+walkAnim = 3_680
+runAnim = 824
+readyAnim = 3_677
+turnAnim = 823
+walkAnimBack = 3_680
+walkAnimLeft = 3_680
+walkAnimRight = 3_680
+accurateAnim = 3_678
+accurateSound = 2_513
+aggressiveAnim = 3_678
+aggressiveSound = 2_513
+controlledAnim = 3_678
+controlledSound = 2_513
+defensiveAnim = 3_678
+defensiveSound = 2_513
+blockAnim = 3_679
+
+[44]
+name = "bas.dragon_claws"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 393
+accurateSound = 4_139
+aggressiveAnim = 393
+aggressiveSound = 4_139
+controlledAnim = 1_067
+controlledSound = 4_139
+defensiveAnim = 393
+defensiveSound = 4_139
+blockAnim = 424
+
+[45]
+name = "bas.crossbow"
+walkAnim = 4_226
+runAnim = 4_228
+readyAnim = 4_591
+turnAnim = 823
+walkAnimBack = 4_227
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 7_552
+accurateSound = 2_695
+aggressiveAnim = 7_552
+aggressiveSound = 2_695
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 7_552
+defensiveSound = 2_695
+blockAnim = 424
+
+[46]
+name = "bas.karils_crossbow"
+walkAnim = 2_076
+runAnim = 2_077
+readyAnim = 2_074
+turnAnim = 823
+walkAnimBack = 2_076
+walkAnimLeft = 2_076
+walkAnimRight = 2_076
+accurateAnim = 2_075
+accurateSound = 2_695
+aggressiveAnim = 2_075
+aggressiveSound = 2_695
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 2_075
+defensiveSound = 2_695
+blockAnim = 424
+
+[47]
+name = "bas.dorgeshuun_crossbow"
+walkAnim = 4_226
+runAnim = 4_228
+readyAnim = 4_591
+turnAnim = 823
+walkAnimBack = 4_227
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 7_552
+accurateSound = 1_081
+aggressiveAnim = 7_552
+aggressiveSound = 1_081
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 7_552
+defensiveSound = 1_081
+blockAnim = 424
+
+[48]
+name = "bas.ballista"
+walkAnim = 7_223
+runAnim = 7_221
+readyAnim = 7_220
+turnAnim = 823
+walkAnimBack = 7_223
+walkAnimLeft = 7_223
+walkAnimRight = 7_223
+accurateAnim = 7_555
+accurateSound = 2_699
+aggressiveAnim = 7_555
+aggressiveSound = 2_699
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 7_555
+defensiveSound = 2_699
+blockAnim = 7_219
+
+[49]
+name = "bas.salamander"
+walkAnim = 5_245
+runAnim = 824
+readyAnim = 5_246
+turnAnim = 823
+walkAnimBack = 5_245
+walkAnimLeft = 5_245
+walkAnimRight = 5_245
+accurateAnim = 5_247
+accurateSound = 738
+aggressiveAnim = -1
+aggressiveSound = 736
+controlledAnim = -1
+controlledSound = 740
+defensiveAnim = -1
+defensiveSound = -1
+blockAnim = 388
+
+[50]
+name = "bas.chinchompa"
+walkAnim = 3_177
+runAnim = 3_178
+readyAnim = 3_175
+turnAnim = 3_177
+walkAnimBack = 3_177
+walkAnimLeft = 3_177
+walkAnimRight = 3_177
+accurateAnim = 7_618
+accurateSound = -1
+aggressiveAnim = 7_618
+aggressiveSound = -1
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 7_618
+defensiveSound = -1
+blockAnim = 3_176
+
+[51]
+name = "bas.fixed_device"
+walkAnim = 2_317
+runAnim = 2_322
+readyAnim = 2_316
+turnAnim = 2_321
+walkAnimBack = 2_318
+walkAnimLeft = 2_319
+walkAnimRight = 2_320
+accurateAnim = 2_326
+accurateSound = 1_204
+aggressiveAnim = 2_323
+aggressiveSound = 2_566
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = -1
+defensiveSound = -1
+blockAnim = 2_324
+
+[52]
+name = "bas.slash_sword"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 390
+accurateSound = 2_500
+aggressiveAnim = 390
+aggressiveSound = 2_500
+controlledAnim = 386
+controlledSound = 2_501
+defensiveAnim = 390
+defensiveSound = 2_500
+blockAnim = 388
+
+[53]
+name = "bas.dragon_longsword"
+walkAnim = 819
+runAnim = 824
+readyAnim = 809
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 390
+accurateSound = 2_500
+aggressiveAnim = 390
+aggressiveSound = 2_500
+controlledAnim = 386
+controlledSound = 2_501
+defensiveAnim = 390
+defensiveSound = 2_500
+blockAnim = 388
+
+[54]
+name = "bas.scimitar"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 390
+accurateSound = 2_500
+aggressiveAnim = 390
+aggressiveSound = 2_500
+controlledAnim = 386
+controlledSound = 2_501
+defensiveAnim = 390
+defensiveSound = 2_500
+blockAnim = -1
+
+[55]
+name = "bas.sickle"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 390
+accurateSound = 2_526
+aggressiveAnim = 390
+aggressiveSound = 2_526
+controlledAnim = 386
+controlledSound = 2_527
+defensiveAnim = 390
+defensiveSound = 2_526
+blockAnim = 388
+
+[56]
+name = "bas.brine_sabre"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 390
+accurateSound = 3_551
+aggressiveAnim = 390
+aggressiveSound = 3_551
+controlledAnim = 386
+controlledSound = 3_552
+defensiveAnim = 390
+defensiveSound = 3_551
+blockAnim = 388
+
+[57]
+name = "bas.2h_sword"
+walkAnim = 2_562
+runAnim = 2_563
+readyAnim = 2_561
+turnAnim = 823
+walkAnimBack = 2_562
+walkAnimLeft = 2_562
+walkAnimRight = 2_562
+accurateAnim = 407
+accurateSound = 2_503
+aggressiveAnim = 407
+aggressiveSound = 2_503
+controlledAnim = 406
+controlledSound = 2_502
+defensiveAnim = 407
+defensiveSound = 2_503
+blockAnim = 410
+
+[58]
+name = "bas.shadow_sword"
+walkAnim = 2_562
+runAnim = 2_563
+readyAnim = 2_561
+turnAnim = 823
+walkAnimBack = 2_562
+walkAnimLeft = 2_562
+walkAnimRight = 2_562
+accurateAnim = 407
+accurateSound = 3_413
+aggressiveAnim = 407
+aggressiveSound = 3_413
+controlledAnim = 406
+controlledSound = 3_412
+defensiveAnim = 407
+defensiveSound = 3_413
+blockAnim = 410
+
+[59]
+name = "bas.2h_straight_sword"
+walkAnim = 7_052
+runAnim = 7_043
+readyAnim = 7_053
+turnAnim = 7_044
+walkAnimBack = 7_052
+walkAnimLeft = 7_048
+walkAnimRight = 7_047
+accurateAnim = 7_045
+accurateSound = 3_847
+aggressiveAnim = 7_045
+aggressiveSound = 3_847
+controlledAnim = 7_054
+controlledSound = 3_846
+defensiveAnim = 7_055
+defensiveSound = 3_847
+blockAnim = 7_056
+
+[60]
+name = "bas.pickaxe"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 401
+accurateSound = 2_498
+aggressiveAnim = 401
+aggressiveSound = 2_498
+controlledAnim = 400
+controlledSound = 2_497
+defensiveAnim = 401
+defensiveSound = 2_498
+blockAnim = 397
+
+[61]
+name = "bas.halberd"
+walkAnim = 1_205
+runAnim = 1_210
+readyAnim = 813
+turnAnim = 1_209
+walkAnimBack = 1_206
+walkAnimLeft = 1_207
+walkAnimRight = 1_208
+accurateAnim = 428
+accurateSound = 2_562
+aggressiveAnim = 440
+aggressiveSound = 2_524
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 428
+defensiveSound = 2_562
+blockAnim = 430
+
+[62]
+name = "bas.mjolnir"
+walkAnim = 1_205
+runAnim = 1_210
+readyAnim = 813
+turnAnim = 1_209
+walkAnimBack = 1_206
+walkAnimLeft = 1_207
+walkAnimRight = 1_208
+accurateAnim = 414
+accurateSound = 2_556
+aggressiveAnim = 414
+aggressiveSound = 2_556
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 414
+defensiveSound = 2_556
+blockAnim = 430
+
+[63]
+name = "bas.dragon_cane"
+walkAnim = 1_205
+runAnim = 1_210
+readyAnim = 813
+turnAnim = 1_209
+walkAnimBack = 1_206
+walkAnimLeft = 1_207
+walkAnimRight = 1_208
+accurateAnim = 414
+accurateSound = 2_555
+aggressiveAnim = 414
+aggressiveSound = 2_555
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 414
+defensiveSound = 2_555
+blockAnim = 430
+
+[64]
+name = "bas.scythe"
+walkAnim = 819
+runAnim = 824
+readyAnim = 847
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 440
+accurateSound = 2_524
+aggressiveAnim = 440
+aggressiveSound = 2_524
+controlledAnim = 438
+controlledSound = 2_522
+defensiveAnim = 440
+defensiveSound = 2_524
+blockAnim = 435
+
+[65]
+name = "bas.scythe_of_vitur"
+walkAnim = 819
+runAnim = 824
+readyAnim = 8_057
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 8_056
+accurateSound = 2_524
+aggressiveAnim = 8_056
+aggressiveSound = 2_524
+controlledAnim = 8_056
+controlledSound = 2_522
+defensiveAnim = 8_056
+defensiveSound = 2_524
+blockAnim = 435
+
+[66]
+name = "bas.spear"
+walkAnim = 1_205
+runAnim = 1_210
+readyAnim = 813
+turnAnim = 1_209
+walkAnimBack = 1_206
+walkAnimLeft = 1_207
+walkAnimRight = 1_208
+accurateAnim = 428
+accurateSound = 2_562
+aggressiveAnim = 440
+aggressiveSound = 2_556
+controlledAnim = 429
+controlledSound = 2_555
+defensiveAnim = 428
+defensiveSound = 2_562
+blockAnim = 430
+
+[67]
+name = "bas.dragon_spear"
+walkAnim = 1_205
+runAnim = 1_210
+readyAnim = 813
+turnAnim = 1_209
+walkAnimBack = 1_206
+walkAnimLeft = 1_207
+walkAnimRight = 1_208
+accurateAnim = 381
+accurateSound = 2_562
+aggressiveAnim = 380
+aggressiveSound = 2_556
+controlledAnim = 382
+controlledSound = 2_555
+defensiveAnim = 381
+defensiveSound = 2_562
+blockAnim = 383
+
+[68]
+name = "bas.guthans_warspear"
+walkAnim = 1_205
+runAnim = 1_210
+readyAnim = 813
+turnAnim = 1_209
+walkAnimBack = 1_206
+walkAnimLeft = 1_207
+walkAnimRight = 1_208
+accurateAnim = 2_080
+accurateSound = 1_337
+aggressiveAnim = 2_081
+aggressiveSound = 1_336
+controlledAnim = 2_082
+controlledSound = 1_335
+defensiveAnim = 2_080
+defensiveSound = 1_337
+blockAnim = 430
+
+[69]
+name = "bas.bone_spear"
+walkAnim = 1_205
+runAnim = 1_210
+readyAnim = 813
+turnAnim = 1_209
+walkAnimBack = 1_206
+walkAnimLeft = 1_207
+walkAnimRight = 1_208
+accurateAnim = 428
+accurateSound = 2_554
+aggressiveAnim = 440
+aggressiveSound = 2_554
+controlledAnim = 429
+controlledSound = 1_309
+defensiveAnim = 428
+defensiveSound = 2_554
+blockAnim = 430
+
+[70]
+name = "bas.butterfly_net"
+walkAnim = 1_205
+runAnim = 1_210
+readyAnim = 813
+turnAnim = 1_209
+walkAnimBack = 1_206
+walkAnimLeft = 1_207
+walkAnimRight = 1_208
+accurateAnim = 428
+accurateSound = -1
+aggressiveAnim = 440
+aggressiveSound = -1
+controlledAnim = 429
+controlledSound = -1
+defensiveAnim = 428
+defensiveSound = -1
+blockAnim = 430
+
+[71]
+name = "bas.noose_wand"
+walkAnim = 5_250
+runAnim = 5_253
+readyAnim = 5_254
+turnAnim = 5_252
+walkAnimBack = 5_251
+walkAnimLeft = 1_207
+walkAnimRight = 1_208
+accurateAnim = 428
+accurateSound = 472
+aggressiveAnim = 440
+aggressiveSound = 472
+controlledAnim = 429
+controlledSound = 472
+defensiveAnim = 428
+defensiveSound = 472
+blockAnim = 430
+
+[72]
+name = "bas.zamorakian_spear"
+walkAnim = 1_703
+runAnim = 1_707
+readyAnim = 1_713
+turnAnim = 1_702
+walkAnimBack = 1_704
+walkAnimLeft = 1_706
+walkAnimRight = 1_705
+accurateAnim = 1_711
+accurateSound = 2_562
+aggressiveAnim = 1_712
+aggressiveSound = 2_556
+controlledAnim = 1_710
+controlledSound = 2_555
+defensiveAnim = 1_711
+defensiveSound = 2_562
+blockAnim = 1_709
+
+[73]
+name = "bas.zamorakian_hasta"
+walkAnim = 1_205
+runAnim = 1_210
+readyAnim = 813
+turnAnim = 1_209
+walkAnimBack = 1_206
+walkAnimLeft = 1_207
+walkAnimRight = 1_208
+accurateAnim = 381
+accurateSound = 2_562
+aggressiveAnim = 440
+aggressiveSound = 2_524
+controlledAnim = 419
+controlledSound = 2_555
+defensiveAnim = 381
+defensiveSound = 2_562
+blockAnim = 420
+
+[74]
+name = "bas.dragon_hunter_lance"
+walkAnim = 1_205
+runAnim = 2_563
+readyAnim = 813
+turnAnim = 1_209
+walkAnimBack = 1_206
+walkAnimLeft = 1_207
+walkAnimRight = 1_208
+accurateAnim = 8_288
+accurateSound = 2_562
+aggressiveAnim = 8_289
+aggressiveSound = 2_524
+controlledAnim = 8_290
+controlledSound = 2_555
+defensiveAnim = 8_288
+defensiveSound = 2_562
+blockAnim = 420
+
+[75]
+name = "bas.mace"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 401
+accurateSound = 2_508
+aggressiveAnim = 401
+aggressiveSound = 2_508
+controlledAnim = 400
+controlledSound = 2_509
+defensiveAnim = 401
+defensiveSound = 2_508
+blockAnim = 403
+
+[76]
+name = "bas.veracs_flail"
+walkAnim = 2_060
+runAnim = 824
+readyAnim = 2_061
+turnAnim = 823
+walkAnimBack = 2_060
+walkAnimLeft = 2_060
+walkAnimRight = 2_060
+accurateAnim = 2_062
+accurateSound = 1_323
+aggressiveAnim = 2_062
+aggressiveSound = 1_323
+controlledAnim = 2_062
+controlledSound = 1_324
+defensiveAnim = 2_062
+defensiveSound = 1_323
+blockAnim = -1
+
+[77]
+name = "bas.barrelchest_anchor"
+walkAnim = 5_867
+runAnim = 5_868
+readyAnim = 5_869
+turnAnim = 823
+walkAnimBack = 5_867
+walkAnimLeft = 5_867
+walkAnimRight = 5_867
+accurateAnim = 5_865
+accurateSound = 3_454
+aggressiveAnim = 5_865
+aggressiveSound = 3_454
+controlledAnim = 5_865
+controlledSound = 3_454
+defensiveAnim = 5_865
+defensiveSound = 3_454
+blockAnim = 5_866
+
+[78]
+name = "bas.viggoras_chainmace"
+walkAnim = 247
+runAnim = 248
+readyAnim = 244
+turnAnim = 823
+walkAnimBack = 247
+walkAnimLeft = 247
+walkAnimRight = 247
+accurateAnim = 245
+accurateSound = 2_566
+aggressiveAnim = 245
+aggressiveSound = 2_566
+controlledAnim = 245
+controlledSound = -1
+defensiveAnim = 245
+defensiveSound = 2_566
+blockAnim = 7_200
+
+[79]
+name = "bas.sarachnis_cudgel"
+walkAnim = 819
+runAnim = 824
+readyAnim = 809
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 401
+accurateSound = 2_508
+aggressiveAnim = 401
+aggressiveSound = 2_508
+controlledAnim = 400
+controlledSound = 2_509
+defensiveAnim = 401
+defensiveSound = 2_508
+blockAnim = 403
+
+[80]
+name = "bas.stab_sword"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 386
+accurateSound = 2_549
+aggressiveAnim = 386
+aggressiveSound = 2_549
+controlledAnim = 390
+controlledSound = 2_548
+defensiveAnim = 386
+defensiveSound = 2_549
+blockAnim = 388
+
+[81]
+name = "bas.dragon_dagger"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 376
+accurateSound = 2_549
+aggressiveAnim = 376
+aggressiveSound = 2_549
+controlledAnim = 377
+controlledSound = 2_548
+defensiveAnim = 376
+defensiveSound = 2_549
+blockAnim = 378
+
+[82]
+name = "bas.wolfbane"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 6_095
+accurateSound = 2_549
+aggressiveAnim = 6_095
+aggressiveSound = 2_549
+controlledAnim = 390
+controlledSound = 2_548
+defensiveAnim = 6_095
+defensiveSound = 2_549
+blockAnim = 388
+
+[83]
+name = "bas.magic_secateurs"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 386
+accurateSound = 1_106
+aggressiveAnim = 386
+aggressiveSound = 1_106
+controlledAnim = 390
+controlledSound = 1_106
+defensiveAnim = 386
+defensiveSound = 1_106
+blockAnim = 388
+
+[84]
+name = "bas.bone_dagger"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 386
+accurateSound = 2_549
+aggressiveAnim = 386
+aggressiveSound = 2_549
+controlledAnim = 390
+controlledSound = 2_548
+defensiveAnim = 386
+defensiveSound = 2_549
+blockAnim = -1
+
+[85]
+name = "bas.keris"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 376
+accurateSound = 2_507
+aggressiveAnim = 376
+aggressiveSound = 2_507
+controlledAnim = 377
+controlledSound = 2_506
+defensiveAnim = 376
+defensiveSound = 2_507
+blockAnim = 378
+
+[86]
+name = "bas.abyssal_dagger"
+walkAnim = 819
+runAnim = 824
+readyAnim = 3_296
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 3_297
+accurateSound = 2_549
+aggressiveAnim = 3_297
+aggressiveSound = 2_549
+controlledAnim = 3_294
+controlledSound = 2_548
+defensiveAnim = 3_297
+defensiveSound = 2_549
+blockAnim = 3_295
+
+[87]
+name = "bas.swift_blade"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 8_288
+accurateSound = 2_549
+aggressiveAnim = 8_288
+aggressiveSound = 2_549
+controlledAnim = 390
+controlledSound = 3_551
+defensiveAnim = 8_288
+defensiveSound = 2_549
+blockAnim = 403
+
+[88]
+name = "bas.polestaff"
+walkAnim = 1_205
+runAnim = 1_210
+readyAnim = 813
+turnAnim = 1_209
+walkAnimBack = 1_206
+walkAnimLeft = 1_207
+walkAnimRight = 1_208
+accurateAnim = 419
+accurateSound = 2_555
+aggressiveAnim = 419
+aggressiveSound = 2_555
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 419
+defensiveSound = 2_555
+blockAnim = 420
+
+[89]
+name = "bas.ibans_staff"
+walkAnim = 1_205
+runAnim = 1_210
+readyAnim = 813
+turnAnim = 1_209
+walkAnimBack = 1_206
+walkAnimLeft = 1_207
+walkAnimRight = 1_208
+accurateAnim = 401
+accurateSound = 2_555
+aggressiveAnim = 401
+aggressiveSound = 2_555
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 401
+defensiveSound = 2_555
+blockAnim = 403
+
+[90]
+name = "bas.god_staff"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 401
+accurateSound = 2_555
+aggressiveAnim = 401
+aggressiveSound = 2_555
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 401
+defensiveSound = 2_555
+blockAnim = 403
+
+[91]
+name = "bas.ahrims_staff"
+walkAnim = 1_205
+runAnim = 1_210
+readyAnim = 813
+turnAnim = 1_209
+walkAnimBack = 1_206
+walkAnimLeft = 1_207
+walkAnimRight = 1_208
+accurateAnim = 2_078
+accurateSound = 1_329
+aggressiveAnim = 2_078
+aggressiveSound = 1_329
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 2_078
+defensiveSound = 1_329
+blockAnim = 2_079
+
+[92]
+name = "bas.toktz_mej_tal"
+walkAnim = 1_205
+runAnim = 1_210
+readyAnim = 813
+turnAnim = 1_209
+walkAnimBack = 1_206
+walkAnimLeft = 1_207
+walkAnimRight = 1_208
+accurateAnim = 429
+accurateSound = 2_558
+aggressiveAnim = 429
+aggressiveSound = 2_558
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 429
+defensiveSound = 2_558
+blockAnim = 430
+
+[93]
+name = "bas.wand"
+walkAnim = 1_205
+runAnim = 1_210
+readyAnim = 813
+turnAnim = 1_209
+walkAnimBack = 1_206
+walkAnimLeft = 1_207
+walkAnimRight = 1_208
+accurateAnim = 414
+accurateSound = 2_566
+aggressiveAnim = 414
+aggressiveSound = 2_566
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 414
+defensiveSound = 2_566
+blockAnim = 415
+
+[94]
+name = "bas.rod_of_ivandis"
+walkAnim = 1_205
+runAnim = 1_210
+readyAnim = 813
+turnAnim = 1_209
+walkAnimBack = 1_206
+walkAnimLeft = 1_207
+walkAnimRight = 1_208
+accurateAnim = 414
+accurateSound = 1_713
+aggressiveAnim = 414
+aggressiveSound = 1_713
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 414
+defensiveSound = 1_713
+blockAnim = 415
+
+[95]
+name = "bas.ivandis_flail"
+walkAnim = 8_011
+runAnim = 8_016
+readyAnim = 8_009
+turnAnim = 8_015
+walkAnimBack = 8_012
+walkAnimLeft = 8_013
+walkAnimRight = 8_014
+accurateAnim = 8_010
+accurateSound = 1_713
+aggressiveAnim = 8_010
+aggressiveSound = 1_713
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 8_010
+defensiveSound = 1_713
+blockAnim = 8_017
+
+[96]
+name = "bas.thammarons_sceptre"
+walkAnim = 1_205
+runAnim = 1_210
+readyAnim = 813
+turnAnim = 1_205
+walkAnimBack = 1_206
+walkAnimLeft = 1_207
+walkAnimRight = 1_208
+accurateAnim = 1_058
+accurateSound = 2_566
+aggressiveAnim = 1_058
+aggressiveSound = 2_566
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 1_058
+defensiveSound = 2_566
+blockAnim = 420
+
+[97]
+name = "bas.nightmare_staff"
+walkAnim = 1_205
+runAnim = 1_210
+readyAnim = 4_504
+turnAnim = 1_209
+walkAnimBack = 1_206
+walkAnimLeft = 1_207
+walkAnimRight = 1_208
+accurateAnim = 4_505
+accurateSound = 2_555
+aggressiveAnim = 4_505
+aggressiveSound = 2_555
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 4_505
+defensiveSound = 2_555
+blockAnim = 420
+
+[98]
+name = "bas.thrownaxe"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 7_617
+accurateSound = 2_706
+aggressiveAnim = 7_617
+aggressiveSound = 2_706
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 7_617
+defensiveSound = 2_706
+blockAnim = 424
+
+[99]
+name = "bas.dart"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 7_554
+accurateSound = 2_696
+aggressiveAnim = 7_554
+aggressiveSound = 2_696
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 7_554
+defensiveSound = 2_696
+blockAnim = 424
+
+[100]
+name = "bas.throwing_knife"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 7_617
+accurateSound = 2_707
+aggressiveAnim = 7_617
+aggressiveSound = 2_707
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 7_617
+defensiveSound = 2_707
+blockAnim = 424
+
+[101]
+name = "bas.toktz_xil_ul"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 7_558
+accurateSound = 2_706
+aggressiveAnim = 7_558
+aggressiveSound = 2_706
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 7_558
+defensiveSound = 2_706
+blockAnim = 424
+
+[102]
+name = "bas.mud_pie"
+walkAnim = 3_177
+runAnim = 3_178
+readyAnim = 3_175
+turnAnim = 3_177
+walkAnimBack = 3_177
+walkAnimLeft = 3_177
+walkAnimRight = 3_177
+accurateAnim = 2_779
+accurateSound = -1
+aggressiveAnim = 2_779
+aggressiveSound = -1
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 2_779
+defensiveSound = -1
+blockAnim = 3_176
+
+[103]
+name = "bas.toxic_blowpipe"
+walkAnim = 1_205
+runAnim = 1_210
+readyAnim = 813
+turnAnim = 1_209
+walkAnimBack = 1_206
+walkAnimLeft = 1_207
+walkAnimRight = 1_208
+accurateAnim = 5_061
+accurateSound = 2_696
+aggressiveAnim = 5_061
+aggressiveSound = 2_696
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 5_061
+defensiveSound = 2_696
+blockAnim = 430
+
+[104]
+name = "bas.dragon_knife"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 8_194
+accurateSound = 2_707
+aggressiveAnim = 8_194
+aggressiveSound = 2_707
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 8_194
+defensiveSound = 2_707
+blockAnim = 424
+
+[105]
+name = "bas.abyssal_whip"
+walkAnim = 1_660
+runAnim = 1_661
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 1_660
+walkAnimLeft = 1_660
+walkAnimRight = 1_660
+accurateAnim = 1_658
+accurateSound = 2_720
+aggressiveAnim = 1_658
+aggressiveSound = 2_720
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 1_658
+defensiveSound = 2_720
+blockAnim = 1_659
+
+[106]
+name = "bas.staff_of_the_dead"
+walkAnim = 1_205
+runAnim = 1_210
+readyAnim = 813
+turnAnim = 1_209
+walkAnimBack = 1_206
+walkAnimLeft = 1_207
+walkAnimRight = 1_208
+accurateAnim = 428
+accurateSound = 2_562
+aggressiveAnim = 440
+aggressiveSound = 2_524
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 419
+defensiveSound = 2_555
+blockAnim = 420
+
+[107]
+name = "bas.powered_staff"
+walkAnim = 1_205
+runAnim = 1_210
+readyAnim = 813
+turnAnim = 1_209
+walkAnimBack = 1_206
+walkAnimLeft = 1_207
+walkAnimRight = 1_208
+accurateAnim = 1_167
+accurateSound = 178
+aggressiveAnim = 1_167
+aggressiveSound = 178
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 1_167
+defensiveSound = 178
+blockAnim = 420
+
+[108]
+name = "bas.flag"
+walkAnim = 1_422
+runAnim = 1_427
+readyAnim = 1_421
+turnAnim = 1_426
+walkAnimBack = 1_423
+walkAnimLeft = 1_424
+walkAnimRight = 1_425
+accurateAnim = 1_428
+accurateSound = -1
+aggressiveAnim = 1_428
+aggressiveSound = -1
+controlledAnim = 1_428
+controlledSound = 2_566
+defensiveAnim = 1_428
+defensiveSound = -1
+blockAnim = 1_429
+
+[109]
+name = "bas.green_banner"
+walkAnim = 1_422
+runAnim = 1_427
+readyAnim = 1_421
+turnAnim = 1_426
+walkAnimBack = 1_423
+walkAnimLeft = 1_424
+walkAnimRight = 1_425
+accurateAnim = 1_428
+accurateSound = -1
+aggressiveAnim = 1_428
+aggressiveSound = -1
+controlledAnim = 422
+controlledSound = 2_566
+defensiveAnim = 1_428
+defensiveSound = -1
+blockAnim = 1_429
+
+[110]
+name = "bas.clan_vexillum"
+walkAnim = 9_017
+runAnim = 9_019
+readyAnim = 9_018
+turnAnim = 7_044
+walkAnimBack = 9_017
+walkAnimLeft = 9_021
+walkAnimRight = 9_020
+accurateAnim = 7_046
+accurateSound = 2_527
+aggressiveAnim = 7_045
+aggressiveSound = 2_526
+controlledAnim = 7_054
+controlledSound = 2_556
+defensiveAnim = 7_046
+defensiveSound = 2_527
+blockAnim = 7_056
+
+[111]
+name = "bas.bludgeon"
+walkAnim = 3_293
+runAnim = 2_847
+readyAnim = 1_652
+turnAnim = 823
+walkAnimBack = 3_293
+walkAnimLeft = 3_293
+walkAnimRight = 3_293
+accurateAnim = 3_298
+accurateSound = 1_309
+aggressiveAnim = 3_298
+aggressiveSound = 1_309
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 3_298
+defensiveSound = 1_309
+blockAnim = 1_666
+
+[112]
+name = "bas.dinhs_bulwark"
+walkAnim = 7_510
+runAnim = 7_509
+readyAnim = 7_508
+turnAnim = 823
+walkAnimBack = 7_510
+walkAnimLeft = 7_510
+walkAnimRight = 7_510
+accurateAnim = 7_511
+accurateSound = 3_454
+aggressiveAnim = -1
+aggressiveSound = -1
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = -1
+defensiveSound = -1
+blockAnim = 7_512
+
+[113]
+name = "bas.dragon_knife_poisoned"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 8_195
+accurateSound = 2_707
+aggressiveAnim = 8_195
+aggressiveSound = 2_707
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 8_195
+defensiveSound = 2_707
+blockAnim = 424
+
+[114]
+name = "bas.blurite_sword"
+walkAnim = 819
+runAnim = 824
+readyAnim = 809
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 390
+accurateSound = 2_500
+aggressiveAnim = 390
+aggressiveSound = 2_500
+controlledAnim = 386
+controlledSound = 2_501
+defensiveAnim = 390
+defensiveSound = 2_500
+blockAnim = 388
+
+[115]
+name = "bas.rocks_shortcut_down"
+walkAnim = 737
+runAnim = -1
+readyAnim = 738
+turnAnim = 737
+walkAnimBack = 737
+walkAnimLeft = 737
+walkAnimRight = 737
+accurateAnim = -1
+accurateSound = -1
+aggressiveAnim = -1
+aggressiveSound = -1
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = -1
+defensiveSound = -1
+blockAnim = -1
+
+[116]
+name = "bas.korasi"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 31_811
+accurateSound = 2_500
+aggressiveAnim = 31_811
+aggressiveSound = 2_500
+controlledAnim = 31_810
+controlledSound = 2_501
+defensiveAnim = 31_811
+defensiveSound = 2_500
+blockAnim = 31_809
+
+[117]
+name = "bas.wg_keg_balance"
+walkAnim = 4_178
+runAnim = -1
+readyAnim = 4_179
+turnAnim = -1
+walkAnimBack = -1
+walkAnimLeft = -1
+walkAnimRight = -1
+accurateAnim = 422
+accurateSound = 2_566
+aggressiveAnim = 423
+aggressiveSound = 2_566
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 422
+defensiveSound = 2_566
+blockAnim = 424
+
+[118]
+name = "bas.magic_carpet"
+walkAnim = 6_936
+runAnim = 6_936
+readyAnim = 6_936
+turnAnim = 6_936
+walkAnimBack = 6_936
+walkAnimLeft = 6_936
+walkAnimRight = 6_936
+accurateAnim = -1
+accurateSound = -1
+aggressiveAnim = -1
+aggressiveSound = -1
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = -1
+defensiveSound = -1
+blockAnim = -1
+
+[119]
+name = "bas.swim"
+walkAnim = 772
+runAnim = -1
+readyAnim = 772
+turnAnim = 772
+walkAnimBack = 772
+walkAnimLeft = 772
+walkAnimRight = 772
+accurateAnim = -1
+accurateSound = -1
+aggressiveAnim = -1
+aggressiveSound = -1
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = -1
+defensiveSound = -1
+blockAnim = -1
+
+[120]
+name = "bas.drown"
+walkAnim = 765
+runAnim = -1
+readyAnim = 765
+turnAnim = 765
+walkAnimBack = 765
+walkAnimLeft = 765
+walkAnimRight = 765
+accurateAnim = -1
+accurateSound = -1
+aggressiveAnim = -1
+aggressiveSound = -1
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = -1
+defensiveSound = -1
+blockAnim = -1
+
+[121]
+name = "bas.inquisitors_mace"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 4_503
+accurateSound = 2_508
+aggressiveAnim = 4_503
+aggressiveSound = 2_508
+controlledAnim = 400
+controlledSound = 2_509
+defensiveAnim = 4_503
+defensiveSound = 2_508
+blockAnim = 403
+
+[122]
+name = "bas.ghrazi_rapier"
+walkAnim = 819
+runAnim = 824
+readyAnim = 809
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 8_145
+accurateSound = 2_549
+aggressiveAnim = 8_145
+aggressiveSound = 2_549
+controlledAnim = 390
+controlledSound = 2_548
+defensiveAnim = 8_145
+defensiveSound = 2_549
+blockAnim = 388
+
+[123]
+name = "bas.haunted_wine_bottle"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 422
+accurateSound = 1_115
+aggressiveAnim = 422
+aggressiveSound = 1_115
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 422
+defensiveSound = 1_115
+blockAnim = 424
+
+[124]
+name = "bas.skis"
+walkAnim = 9_342
+runAnim = 9_346
+readyAnim = 9_341
+turnAnim = 9_343
+walkAnimBack = 9_345
+walkAnimLeft = 9_343
+walkAnimRight = 9_344
+accurateAnim = 9_347
+accurateSound = 1_115
+aggressiveAnim = 9_347
+aggressiveSound = 1_115
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 9_347
+defensiveSound = 1_115
+blockAnim = 9_348
+
+[125]
+name = "bas.shattered_cane"
+walkAnim = 1_146
+runAnim = 824
+readyAnim = 813
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 4_505
+accurateSound = 2_508
+aggressiveAnim = 4_505
+aggressiveSound = 2_508
+controlledAnim = 3_299
+controlledSound = 2_509
+defensiveAnim = 4_505
+defensiveSound = 2_508
+blockAnim = 403
+
+[126]
+name = "bas.shattered_banner"
+walkAnim = 9_264
+runAnim = 9_269
+readyAnim = 9_263
+turnAnim = 9_268
+walkAnimBack = 9_265
+walkAnimLeft = 9_266
+walkAnimRight = 9_267
+accurateAnim = 9_270
+accurateSound = 2_566
+aggressiveAnim = 9_270
+aggressiveSound = 2_566
+controlledAnim = 9_270
+controlledSound = 2_566
+defensiveAnim = 9_270
+defensiveSound = 2_566
+blockAnim = 9_271
+
+[127]
+name = "bas.zaryte_crossbow"
+walkAnim = 4_226
+runAnim = 4_228
+readyAnim = 4_591
+turnAnim = 823
+walkAnimBack = 4_227
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 9_168
+accurateSound = 2_695
+aggressiveAnim = 9_168
+aggressiveSound = 2_695
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 9_168
+defensiveSound = 2_695
+blockAnim = 424
+
+[128]
+name = "bas.swim2"
+walkAnim = 772
+runAnim = -1
+readyAnim = 773
+turnAnim = 773
+walkAnimBack = 772
+walkAnimLeft = 772
+walkAnimRight = 772
+accurateAnim = -1
+accurateSound = -1
+aggressiveAnim = -1
+aggressiveSound = -1
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = -1
+defensiveSound = -1
+blockAnim = -1
+
+[129]
+name = "bas.squeezing_into_wall"
+walkAnim = 754
+runAnim = -1
+readyAnim = 755
+turnAnim = 755
+walkAnimBack = 754
+walkAnimLeft = 754
+walkAnimRight = 754
+accurateAnim = -1
+accurateSound = -1
+aggressiveAnim = -1
+aggressiveSound = -1
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = -1
+defensiveSound = -1
+blockAnim = -1
+
+[130]
+name = "bas.diving"
+walkAnim = 3_415
+runAnim = -1
+readyAnim = 3_418
+turnAnim = 3_415
+walkAnimBack = 3_415
+walkAnimLeft = 3_415
+walkAnimRight = 3_415
+accurateAnim = -1
+accurateSound = -1
+aggressiveAnim = -1
+aggressiveSound = -1
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = -1
+defensiveSound = -1
+blockAnim = -1
+
+[131]
+name = "bas.osmumtens_fang"
+walkAnim = 819
+runAnim = 824
+readyAnim = 809
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 9_471
+accurateSound = 2_549
+aggressiveAnim = 9_471
+aggressiveSound = 2_549
+controlledAnim = 390
+controlledSound = 2_548
+defensiveAnim = 9_471
+defensiveSound = 2_549
+blockAnim = 388
+
+[132]
+name = "bas.tumekens_shadow"
+walkAnim = 1_703
+runAnim = 1_707
+readyAnim = 9_494
+turnAnim = 1_702
+walkAnimBack = 1_704
+walkAnimLeft = 1_706
+walkAnimRight = 1_705
+accurateAnim = 9_493
+accurateSound = 6_410
+aggressiveAnim = 9_493
+aggressiveSound = 6_410
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 9_493
+defensiveSound = 6_410
+blockAnim = 420
+
+[133]
+name = "bas.blade_of_saeldor"
+walkAnim = 819
+runAnim = 824
+readyAnim = 809
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 390
+accurateSound = 2_500
+aggressiveAnim = 390
+aggressiveSound = 2_500
+controlledAnim = 386
+controlledSound = 2_501
+defensiveAnim = 390
+defensiveSound = 2_500
+blockAnim = -1
+
+[134]
+name = "bas.3rd_age_druidic_staff"
+walkAnim = 1_205
+runAnim = 1_210
+readyAnim = 813
+turnAnim = 1_209
+walkAnimBack = 1_206
+walkAnimLeft = 1_207
+walkAnimRight = 1_208
+accurateAnim = 414
+accurateSound = 2_566
+aggressiveAnim = 414
+aggressiveSound = 2_566
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 414
+defensiveSound = 2_566
+blockAnim = 415
+
+[135]
+name = "bas.walk_across_log"
+walkAnim = 762
+runAnim = -1
+readyAnim = 763
+turnAnim = 762
+walkAnimBack = 762
+walkAnimLeft = 762
+walkAnimRight = 762
+accurateAnim = -1
+accurateSound = -1
+aggressiveAnim = -1
+aggressiveSound = -1
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = -1
+defensiveSound = -1
+blockAnim = -1
+
+[136]
+name = "bas.hd_candy_cane"
+walkAnim = 31_826
+runAnim = 31_824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 7_328
+accurateSound = 2_522
+aggressiveAnim = 7_328
+aggressiveSound = 2_522
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 7_328
+defensiveSound = 2_522
+blockAnim = 31_827
+
+[137]
+name = "bas.falling_in_air"
+walkAnim = 768
+runAnim = -1
+readyAnim = 768
+turnAnim = 768
+walkAnimBack = 768
+walkAnimLeft = 768
+walkAnimRight = 768
+accurateAnim = -1
+accurateSound = -1
+aggressiveAnim = -1
+aggressiveSound = -1
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = -1
+defensiveSound = -1
+blockAnim = -1
+
+[138]
+name = "bas.climb_monkey_bars"
+walkAnim = 744
+runAnim = -1
+readyAnim = 745
+turnAnim = 745
+walkAnimBack = 745
+walkAnimLeft = 745
+walkAnimRight = 745
+accurateAnim = -1
+accurateSound = -1
+aggressiveAnim = -1
+aggressiveSound = -1
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = -1
+defensiveSound = -1
+blockAnim = -1
+
+[139]
+name = "bas.stone_of_power"
+walkAnim = 31_784
+runAnim = 31_777
+readyAnim = 31_783
+turnAnim = 31_781
+walkAnimBack = 31_780
+walkAnimLeft = 31_784
+walkAnimRight = 31_784
+accurateAnim = -1
+accurateSound = -1
+aggressiveAnim = -1
+aggressiveSound = -1
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = -1
+defensiveSound = -1
+blockAnim = 31_782
+
+[140]
+name = "bas.vestas_longsword"
+walkAnim = 819
+runAnim = 824
+readyAnim = 809
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 390
+accurateSound = 2_500
+aggressiveAnim = 390
+aggressiveSound = 2_500
+controlledAnim = 8_145
+controlledSound = 2_501
+defensiveAnim = 390
+defensiveSound = 2_500
+blockAnim = 388
+
+[141]
+name = "bas.morrigans_thrownaxe"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 929
+accurateSound = 2_706
+aggressiveAnim = 929
+aggressiveSound = 2_706
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 929
+defensiveSound = 2_706
+blockAnim = 424
+
+[142]
+name = "bas.morrigans_javelin"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 929
+accurateSound = 2_699
+aggressiveAnim = 929
+aggressiveSound = 2_699
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 929
+defensiveSound = 2_699
+blockAnim = 424
+
+[143]
+name = "bas.zuriels_staff"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 414
+accurateSound = 2_555
+aggressiveAnim = 414
+aggressiveSound = 2_555
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 414
+defensiveSound = 2_555
+blockAnim = 415
+
+[144]
+name = "bas.vestas_spear"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 428
+accurateSound = 1_337
+aggressiveAnim = 440
+aggressiveSound = 1_336
+controlledAnim = 429
+controlledSound = 1_335
+defensiveAnim = 428
+defensiveSound = 1_337
+blockAnim = 430
+
+[145]
+name = "bas.balance_on_ledge"
+walkAnim = 756
+runAnim = -1
+readyAnim = 757
+turnAnim = 757
+walkAnimBack = 756
+walkAnimLeft = 756
+walkAnimRight = 756
+accurateAnim = -1
+accurateSound = -1
+aggressiveAnim = -1
+aggressiveSound = -1
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = -1
+defensiveSound = -1
+blockAnim = -1
+
+[146]
+name = "bas.cormorant"
+walkAnim = 5_164
+runAnim = 5_168
+readyAnim = 5_160
+turnAnim = 5_161
+walkAnimBack = 5_165
+walkAnimLeft = 5_166
+walkAnimRight = 5_167
+accurateAnim = 422
+accurateSound = 2_566
+aggressiveAnim = 422
+aggressiveSound = 2_566
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 422
+defensiveSound = 2_566
+blockAnim = 424
+
+[147]
+name = "bas.venator_bow"
+walkAnim = 9_859
+runAnim = 9_860
+readyAnim = 9_857
+turnAnim = 9_863
+walkAnimBack = 9_859
+walkAnimLeft = 9_861
+walkAnimRight = 9_862
+accurateAnim = 9_858
+accurateSound = 2_693
+aggressiveAnim = 9_858
+aggressiveSound = 2_693
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 9_858
+defensiveSound = 2_693
+blockAnim = 424
+
+[148]
+name = "bas.voidwaker"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 390
+accurateSound = 2_500
+aggressiveAnim = 390
+aggressiveSound = 2_500
+controlledAnim = 386
+controlledSound = 2_501
+defensiveAnim = 390
+defensiveSound = 2_500
+blockAnim = 388
+
+[149]
+name = "bas.swim3"
+walkAnim = 772
+runAnim = -1
+readyAnim = 773
+turnAnim = 772
+walkAnimBack = 772
+walkAnimLeft = 772
+walkAnimRight = 772
+accurateAnim = -1
+accurateSound = -1
+aggressiveAnim = -1
+aggressiveSound = -1
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = -1
+defensiveSound = -1
+blockAnim = -1
+
+[150]
+name = "bas.penguin"
+walkAnim = 5_666
+runAnim = 5_667
+readyAnim = 5_668
+turnAnim = -1
+walkAnimBack = 5_666
+walkAnimLeft = 5_666
+walkAnimRight = 5_666
+accurateAnim = -1
+accurateSound = -1
+aggressiveAnim = -1
+aggressiveSound = -1
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = -1
+defensiveSound = -1
+blockAnim = -1
+
+[151]
+name = "bas.penguin_swim"
+walkAnim = 5_689
+runAnim = -1
+readyAnim = 5_688
+turnAnim = -1
+walkAnimBack = 5_689
+walkAnimLeft = 5_689
+walkAnimRight = 5_689
+accurateAnim = -1
+accurateSound = -1
+aggressiveAnim = -1
+aggressiveSound = -1
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = -1
+defensiveSound = -1
+blockAnim = -1
+
+[152]
+name = "bas.penguin_slide"
+walkAnim = 5_706
+runAnim = 5_707
+readyAnim = 5_705
+turnAnim = -1
+walkAnimBack = 5_706
+walkAnimLeft = 5_706
+walkAnimRight = 5_706
+accurateAnim = -1
+accurateSound = -1
+aggressiveAnim = -1
+aggressiveSound = -1
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = -1
+defensiveSound = -1
+blockAnim = -1
+
+[153]
+name = "bas.ledge_hang_shuffle_right"
+walkAnim = 3_060
+runAnim = -1
+readyAnim = 3_060
+turnAnim = -1
+walkAnimBack = 3_060
+walkAnimLeft = 3_060
+walkAnimRight = 3_060
+accurateAnim = -1
+accurateSound = -1
+aggressiveAnim = -1
+aggressiveSound = -1
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = -1
+defensiveSound = -1
+blockAnim = -1
+
+[154]
+name = "bas.ledge_hang_shuffle_left"
+walkAnim = 3_059
+runAnim = -1
+readyAnim = 3_059
+turnAnim = -1
+walkAnimBack = 3_059
+walkAnimLeft = 3_059
+walkAnimRight = 3_059
+accurateAnim = -1
+accurateSound = -1
+aggressiveAnim = -1
+aggressiveSound = -1
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = -1
+defensiveSound = -1
+blockAnim = -1
+
+[155]
+name = "bas.broomstick"
+walkAnim = 31_591
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 31_591
+walkAnimLeft = 31_591
+walkAnimRight = 31_591
+accurateAnim = 422
+accurateSound = 2_566
+aggressiveAnim = 423
+aggressiveSound = 2_566
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 422
+defensiveSound = 2_566
+blockAnim = 424
+
+[156]
+name = "bas.eek"
+walkAnim = 31_611
+runAnim = 824
+readyAnim = 31_612
+turnAnim = 31_612
+walkAnimBack = 31_611
+walkAnimLeft = 31_611
+walkAnimRight = 31_611
+accurateAnim = 422
+accurateSound = 2_566
+aggressiveAnim = 423
+aggressiveSound = 2_566
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 422
+defensiveSound = 2_566
+blockAnim = 424
+
+[157]
+name = "bas.webstrand_walk"
+walkAnim = 31_626
+runAnim = -1
+readyAnim = 31_626
+turnAnim = 31_626
+walkAnimBack = 31_626
+walkAnimLeft = 31_626
+walkAnimRight = 31_626
+accurateAnim = 422
+accurateSound = 2_566
+aggressiveAnim = 423
+aggressiveSound = 2_566
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 422
+defensiveSound = 2_566
+blockAnim = 424
+
+[158]
+name = "bas.webline_run"
+walkAnim = 31_632
+runAnim = 31_632
+readyAnim = 31_632
+turnAnim = 31_632
+walkAnimBack = 31_632
+walkAnimLeft = 31_632
+walkAnimRight = 31_632
+accurateAnim = 422
+accurateSound = 2_566
+aggressiveAnim = 423
+aggressiveSound = 2_566
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 422
+defensiveSound = 2_566
+blockAnim = 424
+
+[159]
+name = "bas.climb_monkey_bars_hd"
+walkAnim = 31_568
+runAnim = -1
+readyAnim = 31_567
+turnAnim = 31_567
+walkAnimBack = 31_567
+walkAnimLeft = 31_567
+walkAnimRight = 31_567
+accurateAnim = -1
+accurateSound = -1
+aggressiveAnim = -1
+aggressiveSound = -1
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = -1
+defensiveSound = -1
+blockAnim = -1
+
+[160]
+name = "bas.balance_on_ledge_left_hd"
+walkAnim = 31_624
+runAnim = -1
+readyAnim = 31_625
+turnAnim = 31_625
+walkAnimBack = 31_624
+walkAnimLeft = 31_624
+walkAnimRight = 31_624
+accurateAnim = -1
+accurateSound = -1
+aggressiveAnim = -1
+aggressiveSound = -1
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = -1
+defensiveSound = -1
+blockAnim = -1
+
+[161]
+name = "bas.balance_on_ledge_right_hd"
+walkAnim = 31_622
+runAnim = -1
+readyAnim = 31_623
+turnAnim = 31_623
+walkAnimBack = 31_622
+walkAnimLeft = 31_622
+walkAnimRight = 31_622
+accurateAnim = -1
+accurateSound = -1
+aggressiveAnim = -1
+aggressiveSound = -1
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = -1
+defensiveSound = -1
+blockAnim = -1
+
+[162]
+name = "bas.default_player_no_run"
+walkAnim = 819
+runAnim = -1
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 422
+accurateSound = 2_566
+aggressiveAnim = 423
+aggressiveSound = 2_566
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 422
+defensiveSound = 2_566
+blockAnim = 424
+
+[163]
+name = "bas.no_anims"
+walkAnim = -1
+runAnim = -1
+readyAnim = -1
+turnAnim = -1
+walkAnimBack = -1
+walkAnimLeft = -1
+walkAnimRight = -1
+accurateAnim = -1
+accurateSound = -1
+aggressiveAnim = -1
+aggressiveSound = -1
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = -1
+defensiveSound = -1
+blockAnim = -1
+
+[164]
+name = "bas.toa_ghost"
+walkAnim = 5_539
+runAnim = -1
+readyAnim = 5_538
+turnAnim = -1
+walkAnimBack = 5_539
+walkAnimLeft = 5_539
+walkAnimRight = 5_539
+accurateAnim = -1
+accurateSound = -1
+aggressiveAnim = -1
+aggressiveSound = -1
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = -1
+defensiveSound = -1
+blockAnim = -1
+
+[165]
+name = "bas.sulphur_blades"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 2_068
+accurateSound = 8_895
+aggressiveAnim = 2_068
+aggressiveSound = 8_895
+controlledAnim = 2_068
+controlledSound = 2_500
+defensiveAnim = 2_068
+defensiveSound = 8_895
+blockAnim = -1
+
+[166]
+name = "bas.tonalztics_of_ralos"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 10_922
+accurateSound = 7_940
+aggressiveAnim = 10_922
+aggressiveSound = 7_940
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 10_922
+defensiveSound = 7_940
+blockAnim = 424
+
+[167]
+name = "bas.dual_macuahuitl"
+walkAnim = 819
+runAnim = 824
+readyAnim = 808
+turnAnim = 823
+walkAnimBack = 820
+walkAnimLeft = 821
+walkAnimRight = 822
+accurateAnim = 10_989
+accurateSound = 7_930
+aggressiveAnim = 10_989
+aggressiveSound = 7_930
+controlledAnim = 10_989
+controlledSound = 7_930
+defensiveAnim = 10_989
+defensiveSound = 7_930
+blockAnim = 424
+
+[168]
+name = "bas.eclipse_atlatl"
+walkAnim = 1_205
+runAnim = 1_210
+readyAnim = 813
+turnAnim = 1_209
+walkAnimBack = 1_206
+walkAnimLeft = 1_207
+walkAnimRight = 1_208
+accurateAnim = 11_057
+accurateSound = 2_699
+aggressiveAnim = 11_057
+aggressiveSound = 2_699
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 11_057
+defensiveSound = 2_699
+blockAnim = 424
+
+[169]
+name = "bas.soulreaper_axe"
+walkAnim = 10_170
+runAnim = 824
+readyAnim = 10_169
+turnAnim = 823
+walkAnimBack = 10_170
+walkAnimLeft = 10_170
+walkAnimRight = 10_170
+accurateAnim = 10_172
+accurateSound = 1_321
+aggressiveAnim = 10_172
+aggressiveSound = 1_321
+controlledAnim = 10_171
+controlledSound = 1_316
+defensiveAnim = 10_172
+defensiveSound = 1_321
+blockAnim = 424
+
+[170]
+name = "bas.magic_butterfly_net"
+walkAnim = 6_607
+runAnim = 6_603
+readyAnim = 6_604
+turnAnim = 6_611
+walkAnimBack = 6_608
+walkAnimLeft = 6_610
+walkAnimRight = 6_609
+accurateAnim = 428
+accurateSound = -1
+aggressiveAnim = 440
+aggressiveSound = -1
+controlledAnim = 429
+controlledSound = -1
+defensiveAnim = 428
+defensiveSound = -1
+blockAnim = 430
+
+[171]
+name = "bas.mounted_monkey"
+walkAnim = 7_234
+runAnim = 7_234
+readyAnim = 7_235
+turnAnim = 7_235
+walkAnimBack = 7_234
+walkAnimLeft = 7_234
+walkAnimRight = 7_234
+accurateAnim = -1
+accurateSound = -1
+aggressiveAnim = -1
+aggressiveSound = -1
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = -1
+defensiveSound = -1
+blockAnim = -1
+
+[172]
+name = "bas.kruk_monkey"
+walkAnim = 1_385
+runAnim = 1_381
+readyAnim = 1_386
+turnAnim = 1_385
+walkAnimBack = 1_385
+walkAnimLeft = 1_385
+walkAnimRight = 1_385
+accurateAnim = -1
+accurateSound = -1
+aggressiveAnim = -1
+aggressiveSound = -1
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = -1
+defensiveSound = -1
+blockAnim = -1
+
+[173]
+name = "bas.diving_with_flippers"
+walkAnim = 3_415
+runAnim = 7_703
+readyAnim = 3_418
+turnAnim = 3_415
+walkAnimBack = 3_415
+walkAnimLeft = 3_415
+walkAnimRight = 3_415
+accurateAnim = -1
+accurateSound = -1
+aggressiveAnim = -1
+aggressiveSound = -1
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = -1
+defensiveSound = -1
+blockAnim = -1
+
+[174]
+name = "bas.noxious_halberd"
+walkAnim = 1_205
+runAnim = 1_210
+readyAnim = 813
+turnAnim = 1_209
+walkAnimBack = 1_206
+walkAnimLeft = 1_207
+walkAnimRight = 1_208
+accurateAnim = 428
+accurateSound = 2_562
+aggressiveAnim = 440
+aggressiveSound = 2_524
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 428
+defensiveSound = 2_562
+blockAnim = 430
+
+[175]
+name = "bas.lean_against_wall"
+walkAnim = 916
+runAnim = 916
+readyAnim = 916
+turnAnim = 916
+walkAnimBack = 916
+walkAnimLeft = 916
+walkAnimRight = 916
+accurateAnim = -1
+accurateSound = -1
+aggressiveAnim = -1
+aggressiveSound = -1
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = -1
+defensiveSound = -1
+blockAnim = -1
+
+[176]
+name = "bas.blazing_blowpipe"
+walkAnim = 1_205
+runAnim = 1_210
+readyAnim = 813
+turnAnim = 1_209
+walkAnimBack = 1_206
+walkAnimLeft = 1_207
+walkAnimRight = 1_208
+accurateAnim = 10_656
+accurateSound = 2_696
+aggressiveAnim = 10_656
+aggressiveSound = 2_696
+controlledAnim = -1
+controlledSound = -1
+defensiveAnim = 10_656
+defensiveSound = 2_696
+blockAnim = 430

@@ -21,7 +21,6 @@ import org.alter.game.plugin.KotlinPlugin
 import org.alter.game.plugin.PluginRepository
 import org.alter.plugins.content.combat.specialattack.SpecialAttacks
 import org.alter.plugins.content.combat.strategy.magic.CombatSpell
-import org.alter.plugins.content.interfaces.attack.AttackTab
 import java.util.*
 
 class CombatPlugin(
@@ -165,23 +164,24 @@ class CombatPlugin(
         if (target != pawn.attr[FACING_PAWN_ATTR]?.get()) {
             return false
         }
-        if (Combat.isAttackDelayReady(pawn)) {
-            if (Combat.canAttack(pawn, target, strategy)) {
-                if (pawn is Player && AttackTab.isSpecialEnabled(pawn) && pawn.getEquipment(EquipmentType.WEAPON) != null) {
-                    AttackTab.disableSpecial(pawn)
-                    if (SpecialAttacks.execute(pawn, target, world)) {
-                        Combat.postAttack(pawn, target)
-                        return true
-                    }
-                    pawn.message("You don't have enough power left.")
-                }
-                strategy.attack(pawn, target)
-                Combat.postAttack(pawn, target)
-            } else {
-                Combat.reset(pawn)
-                return false
-            }
-        }
+//  @TODO
+//        if (Combat.isAttackDelayReady(pawn)) {
+//            if (Combat.canAttack(pawn, target, strategy)) {
+//                if (pawn is Player && AttackTab.isSpecialEnabled(pawn) && pawn.getEquipment(EquipmentType.WEAPON) != null) {
+//                    AttackTab.disableSpecial(pawn)
+//                    if (SpecialAttacks.execute(pawn, target, world)) {
+//                        Combat.postAttack(pawn, target)
+//                        return true
+//                    }
+//                    pawn.message("You don't have enough power left.")
+//                }
+//                strategy.attack(pawn, target)
+//                Combat.postAttack(pawn, target)
+//            } else {
+//                Combat.reset(pawn)
+//                return false
+//            }
+//        }
         return true
     }
 }

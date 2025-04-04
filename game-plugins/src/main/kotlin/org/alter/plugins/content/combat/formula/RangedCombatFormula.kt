@@ -8,8 +8,6 @@ import org.alter.game.model.entity.Pawn
 import org.alter.game.model.entity.Player
 import org.alter.plugins.content.combat.Combat
 import org.alter.plugins.content.combat.CombatConfigs
-import org.alter.plugins.content.mechanics.prayer.Prayer
-import org.alter.plugins.content.mechanics.prayer.Prayers
 
 /**
  * @author Tom <rspsmods@gmail.com>
@@ -345,31 +343,31 @@ object RangedCombatFormula : CombatFormula {
 
     private fun getPrayerRangedMultiplier(player: Player): Double =
         when {
-            Prayers.isActive(player, Prayer.SHARP_EYE) -> 1.05
-            Prayers.isActive(player, Prayer.HAWK_EYE) -> 1.10
-            Prayers.isActive(player, Prayer.EAGLE_EYE) -> 1.15
-            Prayers.isActive(player, Prayer.RIGOUR) -> 1.23
+            //Prayers.isActive(player, Prayer.SHARP_EYE) -> 1.05
+            //Prayers.isActive(player, Prayer.HAWK_EYE) -> 1.10
+            //Prayers.isActive(player, Prayer.EAGLE_EYE) -> 1.15
+            //Prayers.isActive(player, Prayer.RIGOUR) -> 1.23
             else -> 1.0
         }
 
     private fun getPrayerAttackMultiplier(player: Player): Double =
         when {
-            Prayers.isActive(player, Prayer.SHARP_EYE) -> 1.05
-            Prayers.isActive(player, Prayer.HAWK_EYE) -> 1.10
-            Prayers.isActive(player, Prayer.EAGLE_EYE) -> 1.15
-            Prayers.isActive(player, Prayer.RIGOUR) -> 1.20
+            //Prayers.isActive(player, Prayer.SHARP_EYE) -> 1.05
+            //Prayers.isActive(player, Prayer.HAWK_EYE) -> 1.10
+            //Prayers.isActive(player, Prayer.EAGLE_EYE) -> 1.15
+            //Prayers.isActive(player, Prayer.RIGOUR) -> 1.20
             else -> 1.0
         }
 
     private fun getPrayerDefenceMultiplier(player: Player): Double =
         when {
-            Prayers.isActive(player, Prayer.THICK_SKIN) -> 1.05
-            Prayers.isActive(player, Prayer.ROCK_SKIN) -> 1.10
-            Prayers.isActive(player, Prayer.STEEL_SKIN) -> 1.15
-            Prayers.isActive(player, Prayer.CHIVALRY) -> 1.20
-            Prayers.isActive(player, Prayer.PIETY) -> 1.25
-            Prayers.isActive(player, Prayer.RIGOUR) -> 1.25
-            Prayers.isActive(player, Prayer.AUGURY) -> 1.25
+            //Prayers.isActive(player, Prayer.THICK_SKIN) -> 1.05
+            //Prayers.isActive(player, Prayer.ROCK_SKIN) -> 1.10
+            //Prayers.isActive(player, Prayer.STEEL_SKIN) -> 1.15
+            //Prayers.isActive(player, Prayer.CHIVALRY) -> 1.20
+            //Prayers.isActive(player, Prayer.PIETY) -> 1.25
+            //Prayers.isActive(player, Prayer.RIGOUR) -> 1.25
+            //Prayers.isActive(player, Prayer.AUGURY) -> 1.25
             else -> 1.0
         }
 

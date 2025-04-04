@@ -7,9 +7,10 @@ import java.nio.file.Path
  * @author Cl0udS3c
  */
 object RSCM {
-    private var rscmList = mutableMapOf<String, Int>()
+        private var rscmList = mutableMapOf<String, Int>()
     val logger = KotlinLogging.logger {}
     fun getRSCM(entity: Array<String>): List<Int> = entity.map { getRSCM(it) }.toList()
+
     fun Int.asRSCM(table: String): String {
         return rscmList.entries.find { it.value == this && it.key.startsWith("$table.") }?.key
             ?: throw IllegalStateException("No RSCM entry found for ID $this with prefix '$table'.")
@@ -53,9 +54,4 @@ object RSCM {
             }
         }
     }
-
-    fun test() {
-        // @TODO Check if some values match what was expected.
-    }
-
 }

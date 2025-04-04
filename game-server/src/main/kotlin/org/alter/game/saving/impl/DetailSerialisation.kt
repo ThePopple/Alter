@@ -2,7 +2,7 @@ package org.alter.game.saving.impl
 
 import org.alter.game.model.Tile
 import org.alter.game.model.entity.Client
-import org.alter.game.model.interf.DisplayMode
+import org.alter.game.type.interfacedsl.DisplayMode
 import org.alter.game.model.priv.Privilege
 import org.alter.game.saving.DocumentHandler
 import org.bson.Document

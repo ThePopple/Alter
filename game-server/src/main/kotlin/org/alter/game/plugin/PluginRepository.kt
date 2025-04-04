@@ -13,14 +13,15 @@ import it.unimi.dsi.fastutil.objects.ObjectOpenHashSet
 import org.alter.game.Server
 import org.alter.game.event.Event
 import org.alter.game.model.World
-import org.alter.game.model.attr.COMMAND_ARGS_ATTR
-import org.alter.game.model.attr.COMMAND_ATTR
+import org.alter.game.model.attr.*
 import org.alter.game.model.combat.NpcCombatDef
 import org.alter.game.model.container.key.*
 import org.alter.game.model.entity.*
 import org.alter.game.model.shop.Shop
 import org.alter.game.model.timer.TimerKey
 import org.alter.game.service.Service
+import org.alter.game.type.interfacedsl.*
+import org.alter.rscm.RSCM.asRSCM
 import java.nio.file.Files
 import java.nio.file.Path
 
@@ -846,6 +847,7 @@ class PluginRepository(
         componentToComponentItemSwapPlugins[combinedHash] = plugin
     }
 
+
     fun executeComponentToComponentItemSwap(
         p: Player,
         srcInterfaceId: Int,
@@ -860,6 +862,21 @@ class PluginRepository(
         p.executePlugin(plugin)
         return true
     }
+    fun executeComponentToComponentItemSwap(
+        srcInterface: Interface,
+        player: Player,
+        fromItemId: Int,
+        toItemId: Int,
+        fromSlot: Int,
+        toSlot: Int,
+        fromInterfaceId: Int,
+        fromComponent: Int,
+        toInterfaceId: Int,
+        toComponent: Int,
+    ) {
+        executeDrag(srcInterface, player, fromItemId, toItemId, fromSlot, toSlot, fromInterfaceId, fromComponent, toInterfaceId, toComponent)
+    }
+
 
     fun bindGlobalNpcSpawn(plugin: Plugin.() -> Unit) {
         globalNpcSpawnPlugins.add(plugin)
@@ -1035,12 +1052,20 @@ class PluginRepository(
         }
         buttonPlugins[hash] = plugin
     }
-
+    @Deprecated("Will be redone in feature currently still here due to Interfaces that are not yet converted to new system.")
     fun executeButton(
         p: Player,
         parent: Int,
         child: Int,
     ): Boolean {
+        val isNewInterface = getInterfaceByEntryOrNull(parent.asRSCM("interface"))
+        if (isNewInterface != null) {
+            val option = p.attr[INTERACTING_OPT_ATTR] ?: -1
+            val slot = p.attr[INTERACTING_ITEM_ID] ?: -1
+            val item = p.attr[INTERACTING_SLOT_ATTR] ?: -1
+            executeClick(isNewInterface, p, child, option,item, slot)
+            return true
+        }
         val hash = (parent shl 16) or child
         val plugin = buttonPlugins[hash]
         if (plugin != null) {
@@ -1600,7 +1625,7 @@ class PluginRepository(
         }
         itemOnNpcPlugins[hash] = plugin
     }
-
+    @Deprecated("Old")
     fun executeItemOnNpc(
         p: Player,
         npc: Int,
@@ -1610,6 +1635,22 @@ class PluginRepository(
         val plugin = itemOnNpcPlugins[hash] ?: return false
         p.executePlugin(plugin)
         return true
+    }
+
+    fun executeComponentOnNpc(
+        p: Player,
+        npc: Npc,
+        parent: Int,
+        component: Int,
+        selectedSub: Int = -1,
+        selectedObj: Int = -1
+    ): Boolean {
+        val isNewInterface = getInterfaceByEntryOrNull(parent.asRSCM("interface"))
+        if (isNewInterface != null) {
+            executeUseOnNpcClick(isNewInterface, p, component, npc, selectedSub, selectedObj)
+            return true
+        }
+        return false
     }
 
     private val ItemOnNpcGlobal = Int2ObjectOpenHashMap<Plugin.() -> Unit>()

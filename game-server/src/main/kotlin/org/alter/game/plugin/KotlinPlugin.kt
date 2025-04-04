@@ -23,6 +23,7 @@ import org.alter.game.model.shop.ShopCurrency
 import org.alter.game.model.shop.StockType
 import org.alter.game.model.timer.TimerKey
 import org.alter.game.service.Service
+import org.alter.rscm.RSCM.asRSCM
 
 /**
  * Represents a KotlinScript plugin.
@@ -35,6 +36,12 @@ abstract class KotlinPlugin(
     val world: World,
     val server: Server,
 ) {
+    fun lookup(entry: String): Int {
+        return getRSCM(entry)
+    }
+    fun lookup(entry: Int, prefix: String) : String {
+        return entry.asRSCM(prefix)
+    }
     /**
      * A map of properties that will be copied from the [PluginMetadata] and
      * exposed to the plugin.
@@ -585,32 +592,26 @@ abstract class KotlinPlugin(
         logic: (Plugin).() -> Unit,
     ) = r.bindSpellOnPlayer(parent, child, logic)
 
-    /**
-     * Invoke [logic] when [net.rsprot.protocol.game.outgoing.interfaces.IfOpenSub] is handled.
-     */
+
+    @Deprecated("Will be removed")
     fun onInterfaceOpen(
         interfaceId: Int,
         logic: (Plugin).() -> Unit,
     ) = r.bindInterfaceOpen(interfaceId, logic)
 
-    /**
-     * Invoke [logic] when [org.alter.game.model.interf.InterfaceSet.closeByHash]
-     * is handled.
-     */
+    @Deprecated("Will be removed")
     fun onInterfaceClose(
         interfaceId: Int,
         logic: (Plugin).() -> Unit,
     ) = r.bindInterfaceClose(interfaceId, logic)
 
-    /**
-     * Invoke [logic] when [net.rsprot.protocol.game.incoming.buttons.If1Button] is handled.
-     */
+    @Deprecated("Will be removed")
     fun onButton(
         interfaceId: Int,
         component: Int,
         logic: (Plugin).() -> Unit,
     ) = r.bindButton(interfaceId, component, logic)
-
+    @Deprecated("Will be removed")
     fun onButton(
         interfaceId: Int,
         vararg components: Int,
@@ -699,7 +700,7 @@ abstract class KotlinPlugin(
         item: String,
         logic: (Plugin).() -> Unit,
     ) {
-        r.setItemCombatLogic(getRSCM(item), logic)
+        r.setItemCombatLogic(lookup(item), logic)
     }
 
     /**

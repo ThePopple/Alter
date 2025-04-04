@@ -6,6 +6,8 @@ import org.alter.game.model.attr.INTERACTING_COMPONENT_CHILD
 import org.alter.game.model.attr.INTERACTING_ITEM_SLOT
 import org.alter.game.model.attr.OTHER_ITEM_SLOT_ATTR
 import org.alter.game.model.entity.Client
+import org.alter.game.type.interfacedsl.getInterfaceByEntryOrNull
+import org.alter.rscm.RSCM.asRSCM
 
 /**
  * @author Tom <rspsmods@gmail.com>
@@ -17,10 +19,8 @@ class IfButtonDHandler : MessageHandler<IfButtonD> {
     ) {
         val fromSlot = message.selectedSub
         val fromItemId = message.selectedObj
-
         val toSlot = message.targetSub
         val toItemId = message.targetObj
-
         val fromInterfaceId = message.selectedInterfaceId
         val fromComponent = message.selectedComponentId
         val toInterfaceId = message.targetInterfaceId
@@ -40,19 +40,29 @@ class IfButtonDHandler : MessageHandler<IfButtonD> {
         client.attr[INTERACTING_ITEM_SLOT] = fromSlot
         client.attr[OTHER_ITEM_SLOT_ATTR] = toSlot
         client.attr[INTERACTING_COMPONENT_CHILD] = fromComponent
+        var swapped = false
 
-        val swapped =
+        val isNewInterface = getInterfaceByEntryOrNull(fromInterfaceId.asRSCM("interface"))
+        if (isNewInterface != null) {
             client.world.plugins.executeComponentToComponentItemSwap(
-                client,
-                fromInterfaceId,
-                fromComponent,
-                toInterfaceId,
-                toComponent,
+                srcInterface = isNewInterface,
+                player = client,
+                fromItemId = fromItemId,
+                toItemId = toItemId,
+                fromSlot = fromSlot,
+                toSlot = toSlot,
+                fromInterfaceId = fromInterfaceId,
+                fromComponent = fromComponent,
+                toInterfaceId = toInterfaceId,
+                toComponent = toComponent
             )
+            swapped = true
+        }
+
         if (!swapped && client.world.devContext.debugButtons) {
             client.writeMessage(
                 "[IfButtonDHandler] Unhandled component to component swap: [from_item=$fromItemId, to_item=$toItemId, from_slot=$fromSlot, to_slot=$toSlot, " +
-                    "from_component=[$fromInterfaceId:$fromComponent], to_component=[$toInterfaceId:$toComponent]]",
+                        "from_component=[$fromInterfaceId:$fromComponent], to_component=[$toInterfaceId:$toComponent]]",
             )
         }
     }
