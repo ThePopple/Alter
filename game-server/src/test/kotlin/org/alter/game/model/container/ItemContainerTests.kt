@@ -130,8 +130,8 @@ class ItemContainerTests {
         @JvmStatic
         fun loadCache() {
             val path = Paths.get("..", "data", "cache")
-
-            CacheManager.init(path, 228)
+            // @TODO Get from GameContext
+            CacheManager.init(path, 230)
 
             assertNotEquals(itemSize(), 0)
         }
