@@ -24,13 +24,15 @@ dependencies {
         implementation(kotlin.csv)
         implementation(mongo.bson)
         implementation(mongo.driver)
-        implementation(rootProject.projects.plugins.rscm)
-        testImplementation(junit)
+        implementation(project(":plugins:rscm"))
         implementation(rootProject.project.libs.rsprot.api)
         implementation(rootProject.project.libs.rsprot.shared)
-        implementation(rootProject.projects.plugins.filestore)
-        implementation(rootProject.projects.plugins.rscm)
-        implementation(rootProject.projects.plugins.tools)
+        implementation(project(":plugins:openRuneFileStore:tools"))
+        implementation(project(":plugins:openRuneFileStore:filestore.osrsFs"))
+        implementation(project(":plugins:openRuneFileStore:filesystem"))
+
+        testImplementation(junit)
+        // implementation(project(":
         implementation(lib.routefinder)
     }
 }

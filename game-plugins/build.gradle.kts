@@ -6,7 +6,7 @@ dependencies {
     implementation(projects.util)
     implementation(project(":game-api"))
     implementation(rootProject.project.libs.rsprot.api)
-    implementation(rootProject.projects.plugins.filestore)
+    implementation(rootProject.projects.plugins.openRuneFileStore.filestore)
     implementation(rootProject.projects.plugins.rscm)
     implementation(lib.routefinder)
 }
